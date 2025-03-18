@@ -1,530 +1,530 @@
-2025-03-17 18:07:56,424 - ------------Starting G-code post-processing-------------
-2025-03-17 18:07:56,424 - Input file: /var/folders/9l/35n9s6_s0f3bmw4yz19gz84w0000gn/T/orcaslicer_model/Mon_Mar_17/16_53_29#15821#1145/Metadata/.15821.2.gcode
-2025-03-17 18:07:56,424 - Slicer: OrcaSlicer
-2025-03-17 18:07:56,424 - Machine: BBL-X1C
-2025-03-17 18:07:56,424 - Mod: bricklayers
-2025-03-17 18:07:56,424 - Layer height: 0.2 mm
-2025-03-17 18:07:56,424 - Extrusion Multiplier: 1.3x 
+2025-03-17 19:11:02,079 - ------------Starting G-code post-processing-------------
+2025-03-17 19:11:02,080 - Input file: /var/folders/9l/35n9s6_s0f3bmw4yz19gz84w0000gn/T/orcaslicer_model/Mon_Mar_17/16_53_29#15821#1145/Metadata/.15821.2.gcode
+2025-03-17 19:11:02,080 - Slicer: OrcaSlicer
+2025-03-17 19:11:02,080 - Machine: BBL-X1C
+2025-03-17 19:11:02,080 - Mod: bricklayers
+2025-03-17 19:11:02,080 - Extrusion Multiplier: 1.3x 
 
-2025-03-17 18:07:56,427 - Opened Input File: /var/folders/9l/35n9s6_s0f3bmw4yz19gz84w0000gn/T/orcaslicer_model/Mon_Mar_17/16_53_29#15821#1145/Metadata/.15821.2.gcode
-2025-03-17 18:07:56,428 - Total layer num: 57
-2025-03-17 18:07:56,428 - Z-shift: 0.1 mm 
+2025-03-17 19:11:02,080 - Opened Input File: /var/folders/9l/35n9s6_s0f3bmw4yz19gz84w0000gn/T/orcaslicer_model/Mon_Mar_17/16_53_29#15821#1145/Metadata/.15821.2.gcode
+2025-03-17 19:11:02,085 - Total layer num: 25
+2025-03-17 19:11:02,085 - Layer height: 0.2
+2025-03-17 19:11:02,085 - Z-shift: 0.1 mm 
 
-2025-03-17 18:07:56,428 - ------------Processing G-code--------------------------
-2025-03-17 18:07:56,428 - 1222 - Current Layer is 1
-2025-03-17 18:07:56,428 - 1230 - Current Z = 0.600
-2025-03-17 18:07:56,428 - 1231 - Current Z = 0.200
-2025-03-17 18:07:56,428 - 1234: Internal perimeter block started at layer 1
-2025-03-17 18:07:56,428 - Perimeter block #1 detected at layer 1
-2025-03-17 18:07:56,428 - Inserting G1 Z0.300 for shifted perimeter block #1
-2025-03-17 18:07:56,428 - Perimeter block #2 detected at layer 1
-2025-03-17 18:07:56,428 - Inserting G1 Z0.200 for non-shifted perimeter block #2
-2025-03-17 18:07:56,428 - Perimeter block #3 detected at layer 1
-2025-03-17 18:07:56,428 - Inserting G1 Z0.300 for shifted perimeter block #3
-2025-03-17 18:07:56,428 - 1262 - Current Z = 0.200
-2025-03-17 18:07:56,428 - Perimeter block #4 detected at layer 1
-2025-03-17 18:07:56,428 - Inserting G1 Z0.200 for non-shifted perimeter block #4
-2025-03-17 18:07:56,428 - Layer Done 
+2025-03-17 19:11:02,085 - ------------Processing G-code--------------------------
+2025-03-17 19:11:02,085 - 1222 - Current Layer is 1
+2025-03-17 19:11:02,085 - 1230 - Current Z = 0.600
+2025-03-17 19:11:02,085 - 1231 - Current Z = 0.200
+2025-03-17 19:11:02,085 - 1234: Internal perimeter block started at layer 1
+2025-03-17 19:11:02,085 - Perimeter block #1 detected at layer 1
+2025-03-17 19:11:02,085 - Inserting G1 Z0.300 for shifted perimeter block #1
+2025-03-17 19:11:02,085 - Perimeter block #2 detected at layer 1
+2025-03-17 19:11:02,085 - Inserting G1 Z0.200 for non-shifted perimeter block #2
+2025-03-17 19:11:02,085 - Perimeter block #3 detected at layer 1
+2025-03-17 19:11:02,085 - Inserting G1 Z0.300 for shifted perimeter block #3
+2025-03-17 19:11:02,086 - 1262 - Current Z = 0.200
+2025-03-17 19:11:02,086 - Perimeter block #4 detected at layer 1
+2025-03-17 19:11:02,086 - Inserting G1 Z0.200 for non-shifted perimeter block #4
+2025-03-17 19:11:02,086 - Layer Done 
 
-2025-03-17 18:07:56,428 - 1390 - Current Layer is 2
-2025-03-17 18:07:56,428 - 1406 - Current Z = 0.400
-2025-03-17 18:07:56,428 - 1408: Internal perimeter block started at layer 2
-2025-03-17 18:07:56,428 - Perimeter block #1 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.500 for shifted perimeter block #1
-2025-03-17 18:07:56,428 - Perimeter block #2 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.400 for non-shifted perimeter block #2
-2025-03-17 18:07:56,428 - Perimeter block #3 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.500 for shifted perimeter block #3
-2025-03-17 18:07:56,428 - 1438 - Current Z = 0.400
-2025-03-17 18:07:56,428 - Perimeter block #4 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.400 for non-shifted perimeter block #4
-2025-03-17 18:07:56,428 - Perimeter block #5 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.500 for shifted perimeter block #5
-2025-03-17 18:07:56,428 - Perimeter block #6 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.400 for non-shifted perimeter block #6
-2025-03-17 18:07:56,428 - Perimeter block #7 detected at layer 2
-2025-03-17 18:07:56,428 - Inserting G1 Z0.500 for shifted perimeter block #7
-2025-03-17 18:07:56,428 - Layer Done 
+2025-03-17 19:11:02,086 - 1390 - Current Layer is 2
+2025-03-17 19:11:02,086 - 1406 - Current Z = 0.400
+2025-03-17 19:11:02,086 - 1408: Internal perimeter block started at layer 2
+2025-03-17 19:11:02,086 - Perimeter block #1 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.500 for shifted perimeter block #1
+2025-03-17 19:11:02,086 - Perimeter block #2 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.400 for non-shifted perimeter block #2
+2025-03-17 19:11:02,086 - Perimeter block #3 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.500 for shifted perimeter block #3
+2025-03-17 19:11:02,086 - 1438 - Current Z = 0.400
+2025-03-17 19:11:02,086 - Perimeter block #4 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.400 for non-shifted perimeter block #4
+2025-03-17 19:11:02,086 - Perimeter block #5 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.500 for shifted perimeter block #5
+2025-03-17 19:11:02,086 - Perimeter block #6 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.400 for non-shifted perimeter block #6
+2025-03-17 19:11:02,086 - Perimeter block #7 detected at layer 2
+2025-03-17 19:11:02,086 - Inserting G1 Z0.500 for shifted perimeter block #7
+2025-03-17 19:11:02,086 - Layer Done 
 
-2025-03-17 18:07:56,428 - 1603 - Current Layer is 3
-2025-03-17 18:07:56,428 - 1612 - Current Z = 0.600
-2025-03-17 18:07:56,428 - 1614: Internal perimeter block started at layer 3
-2025-03-17 18:07:56,428 - Perimeter block #1 detected at layer 3
-2025-03-17 18:07:56,428 - Inserting G1 Z0.700 for shifted perimeter block #1
-2025-03-17 18:07:56,428 - Perimeter block #2 detected at layer 3
-2025-03-17 18:07:56,428 - Inserting G1 Z0.600 for non-shifted perimeter block #2
-2025-03-17 18:07:56,428 - Perimeter block #3 detected at layer 3
-2025-03-17 18:07:56,428 - Inserting G1 Z0.700 for shifted perimeter block #3
-2025-03-17 18:07:56,428 - 1644 - Current Z = 0.600
-2025-03-17 18:07:56,429 - Perimeter block #4 detected at layer 3
-2025-03-17 18:07:56,429 - Inserting G1 Z0.600 for non-shifted perimeter block #4
-2025-03-17 18:07:56,429 - Perimeter block #5 detected at layer 3
-2025-03-17 18:07:56,429 - Inserting G1 Z0.700 for shifted perimeter block #5
-2025-03-17 18:07:56,429 - Perimeter block #6 detected at layer 3
-2025-03-17 18:07:56,429 - Inserting G1 Z0.600 for non-shifted perimeter block #6
-2025-03-17 18:07:56,429 - Perimeter block #7 detected at layer 3
-2025-03-17 18:07:56,429 - Inserting G1 Z0.700 for shifted perimeter block #7
-2025-03-17 18:07:56,429 - Layer Done 
+2025-03-17 19:11:02,086 - 1603 - Current Layer is 3
+2025-03-17 19:11:02,086 - 1612 - Current Z = 0.600
+2025-03-17 19:11:02,086 - 1614: Internal perimeter block started at layer 3
+2025-03-17 19:11:02,086 - Perimeter block #1 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.700 for shifted perimeter block #1
+2025-03-17 19:11:02,086 - Perimeter block #2 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.600 for non-shifted perimeter block #2
+2025-03-17 19:11:02,086 - Perimeter block #3 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.700 for shifted perimeter block #3
+2025-03-17 19:11:02,086 - 1644 - Current Z = 0.600
+2025-03-17 19:11:02,086 - Perimeter block #4 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.600 for non-shifted perimeter block #4
+2025-03-17 19:11:02,086 - Perimeter block #5 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.700 for shifted perimeter block #5
+2025-03-17 19:11:02,086 - Perimeter block #6 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.600 for non-shifted perimeter block #6
+2025-03-17 19:11:02,086 - Perimeter block #7 detected at layer 3
+2025-03-17 19:11:02,086 - Inserting G1 Z0.700 for shifted perimeter block #7
+2025-03-17 19:11:02,086 - Layer Done 
 
-2025-03-17 18:07:56,429 - 1810 - Current Layer is 4
-2025-03-17 18:07:56,429 - 1819 - Current Z = 0.800
-2025-03-17 18:07:56,429 - 1821: Internal perimeter block started at layer 4
-2025-03-17 18:07:56,429 - Perimeter block #1 detected at layer 4
-2025-03-17 18:07:56,429 - Inserting G1 Z0.900 for shifted perimeter block #1
-2025-03-17 18:07:56,429 - Perimeter block #2 detected at layer 4
-2025-03-17 18:07:56,429 - Inserting G1 Z0.800 for non-shifted perimeter block #2
-2025-03-17 18:07:56,429 - Perimeter block #3 detected at layer 4
-2025-03-17 18:07:56,429 - Inserting G1 Z0.900 for shifted perimeter block #3
-2025-03-17 18:07:56,429 - 1852 - Current Z = 0.800
-2025-03-17 18:07:56,429 - Perimeter block #4 detected at layer 4
-2025-03-17 18:07:56,429 - Inserting G1 Z0.800 for non-shifted perimeter block #4
-2025-03-17 18:07:56,429 - Layer Done 
+2025-03-17 19:11:02,086 - 1810 - Current Layer is 4
+2025-03-17 19:11:02,086 - 1819 - Current Z = 0.800
+2025-03-17 19:11:02,086 - 1821: Internal perimeter block started at layer 4
+2025-03-17 19:11:02,086 - Perimeter block #1 detected at layer 4
+2025-03-17 19:11:02,086 - Inserting G1 Z0.900 for shifted perimeter block #1
+2025-03-17 19:11:02,086 - Perimeter block #2 detected at layer 4
+2025-03-17 19:11:02,086 - Inserting G1 Z0.800 for non-shifted perimeter block #2
+2025-03-17 19:11:02,086 - Perimeter block #3 detected at layer 4
+2025-03-17 19:11:02,086 - Inserting G1 Z0.900 for shifted perimeter block #3
+2025-03-17 19:11:02,086 - 1852 - Current Z = 0.800
+2025-03-17 19:11:02,086 - Perimeter block #4 detected at layer 4
+2025-03-17 19:11:02,086 - Inserting G1 Z0.800 for non-shifted perimeter block #4
+2025-03-17 19:11:02,086 - Layer Done 
 
-2025-03-17 18:07:56,429 - 1899 - Current Layer is 5
-2025-03-17 18:07:56,429 - 1908 - Current Z = 1.000
-2025-03-17 18:07:56,429 - 1910: Internal perimeter block started at layer 5
-2025-03-17 18:07:56,429 - Perimeter block #1 detected at layer 5
-2025-03-17 18:07:56,429 - Inserting G1 Z1.100 for shifted perimeter block #1
-2025-03-17 18:07:56,429 - Perimeter block #2 detected at layer 5
-2025-03-17 18:07:56,429 - Inserting G1 Z1.000 for non-shifted perimeter block #2
-2025-03-17 18:07:56,429 - Perimeter block #3 detected at layer 5
-2025-03-17 18:07:56,429 - Inserting G1 Z1.100 for shifted perimeter block #3
-2025-03-17 18:07:56,429 - 1939 - Current Z = 1.000
-2025-03-17 18:07:56,429 - Perimeter block #4 detected at layer 5
-2025-03-17 18:07:56,429 - Inserting G1 Z1.000 for non-shifted perimeter block #4
-2025-03-17 18:07:56,429 - Layer Done 
+2025-03-17 19:11:02,086 - 1899 - Current Layer is 5
+2025-03-17 19:11:02,086 - 1908 - Current Z = 1.000
+2025-03-17 19:11:02,086 - 1910: Internal perimeter block started at layer 5
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 5
+2025-03-17 19:11:02,087 - Inserting G1 Z1.100 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 5
+2025-03-17 19:11:02,087 - Inserting G1 Z1.000 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 5
+2025-03-17 19:11:02,087 - Inserting G1 Z1.100 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 1939 - Current Z = 1.000
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 5
+2025-03-17 19:11:02,087 - Inserting G1 Z1.000 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,429 - 1985 - Current Layer is 6
-2025-03-17 18:07:56,429 - 1994 - Current Z = 1.200
-2025-03-17 18:07:56,429 - 1996: Internal perimeter block started at layer 6
-2025-03-17 18:07:56,429 - Perimeter block #1 detected at layer 6
-2025-03-17 18:07:56,429 - Inserting G1 Z1.300 for shifted perimeter block #1
-2025-03-17 18:07:56,429 - Perimeter block #2 detected at layer 6
-2025-03-17 18:07:56,429 - Inserting G1 Z1.200 for non-shifted perimeter block #2
-2025-03-17 18:07:56,429 - Perimeter block #3 detected at layer 6
-2025-03-17 18:07:56,429 - Inserting G1 Z1.300 for shifted perimeter block #3
-2025-03-17 18:07:56,429 - 2025 - Current Z = 1.200
-2025-03-17 18:07:56,429 - Perimeter block #4 detected at layer 6
-2025-03-17 18:07:56,429 - Inserting G1 Z1.200 for non-shifted perimeter block #4
-2025-03-17 18:07:56,429 - Layer Done 
+2025-03-17 19:11:02,087 - 1985 - Current Layer is 6
+2025-03-17 19:11:02,087 - 1994 - Current Z = 1.200
+2025-03-17 19:11:02,087 - 1996: Internal perimeter block started at layer 6
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 6
+2025-03-17 19:11:02,087 - Inserting G1 Z1.300 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 6
+2025-03-17 19:11:02,087 - Inserting G1 Z1.200 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 6
+2025-03-17 19:11:02,087 - Inserting G1 Z1.300 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 2025 - Current Z = 1.200
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 6
+2025-03-17 19:11:02,087 - Inserting G1 Z1.200 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,429 - 2072 - Current Layer is 7
-2025-03-17 18:07:56,429 - 2081 - Current Z = 1.400
-2025-03-17 18:07:56,429 - 2083: Internal perimeter block started at layer 7
-2025-03-17 18:07:56,429 - Perimeter block #1 detected at layer 7
-2025-03-17 18:07:56,429 - Inserting G1 Z1.500 for shifted perimeter block #1
-2025-03-17 18:07:56,429 - Perimeter block #2 detected at layer 7
-2025-03-17 18:07:56,429 - Inserting G1 Z1.400 for non-shifted perimeter block #2
-2025-03-17 18:07:56,429 - Perimeter block #3 detected at layer 7
-2025-03-17 18:07:56,429 - Inserting G1 Z1.500 for shifted perimeter block #3
-2025-03-17 18:07:56,429 - 2112 - Current Z = 1.400
-2025-03-17 18:07:56,429 - Perimeter block #4 detected at layer 7
-2025-03-17 18:07:56,429 - Inserting G1 Z1.400 for non-shifted perimeter block #4
-2025-03-17 18:07:56,429 - Layer Done 
+2025-03-17 19:11:02,087 - 2072 - Current Layer is 7
+2025-03-17 19:11:02,087 - 2081 - Current Z = 1.400
+2025-03-17 19:11:02,087 - 2083: Internal perimeter block started at layer 7
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 7
+2025-03-17 19:11:02,087 - Inserting G1 Z1.500 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 7
+2025-03-17 19:11:02,087 - Inserting G1 Z1.400 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 7
+2025-03-17 19:11:02,087 - Inserting G1 Z1.500 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 2112 - Current Z = 1.400
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 7
+2025-03-17 19:11:02,087 - Inserting G1 Z1.400 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,429 - 2158 - Current Layer is 8
-2025-03-17 18:07:56,429 - 2167 - Current Z = 1.600
-2025-03-17 18:07:56,429 - 2169: Internal perimeter block started at layer 8
-2025-03-17 18:07:56,429 - Perimeter block #1 detected at layer 8
-2025-03-17 18:07:56,429 - Inserting G1 Z1.700 for shifted perimeter block #1
-2025-03-17 18:07:56,429 - Perimeter block #2 detected at layer 8
-2025-03-17 18:07:56,430 - Inserting G1 Z1.600 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 8
-2025-03-17 18:07:56,430 - Inserting G1 Z1.700 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2199 - Current Z = 1.600
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 8
-2025-03-17 18:07:56,430 - Inserting G1 Z1.600 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,087 - 2158 - Current Layer is 8
+2025-03-17 19:11:02,087 - 2167 - Current Z = 1.600
+2025-03-17 19:11:02,087 - 2169: Internal perimeter block started at layer 8
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 8
+2025-03-17 19:11:02,087 - Inserting G1 Z1.700 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 8
+2025-03-17 19:11:02,087 - Inserting G1 Z1.600 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 8
+2025-03-17 19:11:02,087 - Inserting G1 Z1.700 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 2199 - Current Z = 1.600
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 8
+2025-03-17 19:11:02,087 - Inserting G1 Z1.600 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2245 - Current Layer is 9
-2025-03-17 18:07:56,430 - 2254 - Current Z = 1.800
-2025-03-17 18:07:56,430 - 2256: Internal perimeter block started at layer 9
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 9
-2025-03-17 18:07:56,430 - Inserting G1 Z1.900 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 9
-2025-03-17 18:07:56,430 - Inserting G1 Z1.800 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 9
-2025-03-17 18:07:56,430 - Inserting G1 Z1.900 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2285 - Current Z = 1.800
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 9
-2025-03-17 18:07:56,430 - Inserting G1 Z1.800 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,087 - 2245 - Current Layer is 9
+2025-03-17 19:11:02,087 - 2254 - Current Z = 1.800
+2025-03-17 19:11:02,087 - 2256: Internal perimeter block started at layer 9
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 9
+2025-03-17 19:11:02,087 - Inserting G1 Z1.900 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 9
+2025-03-17 19:11:02,087 - Inserting G1 Z1.800 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 9
+2025-03-17 19:11:02,087 - Inserting G1 Z1.900 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 2285 - Current Z = 1.800
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 9
+2025-03-17 19:11:02,087 - Inserting G1 Z1.800 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2331 - Current Layer is 10
-2025-03-17 18:07:56,430 - 2340 - Current Z = 2.000
-2025-03-17 18:07:56,430 - 2342: Internal perimeter block started at layer 10
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 10
-2025-03-17 18:07:56,430 - Inserting G1 Z2.100 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 10
-2025-03-17 18:07:56,430 - Inserting G1 Z2.000 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 10
-2025-03-17 18:07:56,430 - Inserting G1 Z2.100 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2372 - Current Z = 2.000
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 10
-2025-03-17 18:07:56,430 - Inserting G1 Z2.000 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,087 - 2331 - Current Layer is 10
+2025-03-17 19:11:02,087 - 2340 - Current Z = 2.000
+2025-03-17 19:11:02,087 - 2342: Internal perimeter block started at layer 10
+2025-03-17 19:11:02,087 - Perimeter block #1 detected at layer 10
+2025-03-17 19:11:02,087 - Inserting G1 Z2.100 for shifted perimeter block #1
+2025-03-17 19:11:02,087 - Perimeter block #2 detected at layer 10
+2025-03-17 19:11:02,087 - Inserting G1 Z2.000 for non-shifted perimeter block #2
+2025-03-17 19:11:02,087 - Perimeter block #3 detected at layer 10
+2025-03-17 19:11:02,087 - Inserting G1 Z2.100 for shifted perimeter block #3
+2025-03-17 19:11:02,087 - 2372 - Current Z = 2.000
+2025-03-17 19:11:02,087 - Perimeter block #4 detected at layer 10
+2025-03-17 19:11:02,087 - Inserting G1 Z2.000 for non-shifted perimeter block #4
+2025-03-17 19:11:02,087 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2418 - Current Layer is 11
-2025-03-17 18:07:56,430 - 2427 - Current Z = 2.200
-2025-03-17 18:07:56,430 - 2429: Internal perimeter block started at layer 11
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 11
-2025-03-17 18:07:56,430 - Inserting G1 Z2.300 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 11
-2025-03-17 18:07:56,430 - Inserting G1 Z2.200 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 11
-2025-03-17 18:07:56,430 - Inserting G1 Z2.300 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2458 - Current Z = 2.200
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 11
-2025-03-17 18:07:56,430 - Inserting G1 Z2.200 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,087 - 2418 - Current Layer is 11
+2025-03-17 19:11:02,088 - 2427 - Current Z = 2.200
+2025-03-17 19:11:02,088 - 2429: Internal perimeter block started at layer 11
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 11
+2025-03-17 19:11:02,088 - Inserting G1 Z2.300 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 11
+2025-03-17 19:11:02,088 - Inserting G1 Z2.200 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 11
+2025-03-17 19:11:02,088 - Inserting G1 Z2.300 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2458 - Current Z = 2.200
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 11
+2025-03-17 19:11:02,088 - Inserting G1 Z2.200 for non-shifted perimeter block #4
+2025-03-17 19:11:02,088 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2504 - Current Layer is 12
-2025-03-17 18:07:56,430 - 2513 - Current Z = 2.400
-2025-03-17 18:07:56,430 - 2515: Internal perimeter block started at layer 12
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 12
-2025-03-17 18:07:56,430 - Inserting G1 Z2.500 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 12
-2025-03-17 18:07:56,430 - Inserting G1 Z2.400 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 12
-2025-03-17 18:07:56,430 - Inserting G1 Z2.500 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2545 - Current Z = 2.400
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 12
-2025-03-17 18:07:56,430 - Inserting G1 Z2.400 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,088 - 2504 - Current Layer is 12
+2025-03-17 19:11:02,088 - 2513 - Current Z = 2.400
+2025-03-17 19:11:02,088 - 2515: Internal perimeter block started at layer 12
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 12
+2025-03-17 19:11:02,088 - Inserting G1 Z2.500 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 12
+2025-03-17 19:11:02,088 - Inserting G1 Z2.400 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 12
+2025-03-17 19:11:02,088 - Inserting G1 Z2.500 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2545 - Current Z = 2.400
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 12
+2025-03-17 19:11:02,088 - Inserting G1 Z2.400 for non-shifted perimeter block #4
+2025-03-17 19:11:02,088 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2591 - Current Layer is 13
-2025-03-17 18:07:56,430 - 2600 - Current Z = 2.600
-2025-03-17 18:07:56,430 - 2602: Internal perimeter block started at layer 13
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 13
-2025-03-17 18:07:56,430 - Inserting G1 Z2.700 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 13
-2025-03-17 18:07:56,430 - Inserting G1 Z2.600 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 13
-2025-03-17 18:07:56,430 - Inserting G1 Z2.700 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2631 - Current Z = 2.600
-2025-03-17 18:07:56,430 - Perimeter block #4 detected at layer 13
-2025-03-17 18:07:56,430 - Inserting G1 Z2.600 for non-shifted perimeter block #4
-2025-03-17 18:07:56,430 - Layer Done 
+2025-03-17 19:11:02,088 - 2591 - Current Layer is 13
+2025-03-17 19:11:02,088 - 2600 - Current Z = 2.600
+2025-03-17 19:11:02,088 - 2602: Internal perimeter block started at layer 13
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 13
+2025-03-17 19:11:02,088 - Inserting G1 Z2.700 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 13
+2025-03-17 19:11:02,088 - Inserting G1 Z2.600 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 13
+2025-03-17 19:11:02,088 - Inserting G1 Z2.700 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2631 - Current Z = 2.600
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 13
+2025-03-17 19:11:02,088 - Inserting G1 Z2.600 for non-shifted perimeter block #4
+2025-03-17 19:11:02,088 - Layer Done 
 
-2025-03-17 18:07:56,430 - 2677 - Current Layer is 14
-2025-03-17 18:07:56,430 - 2687 - Current Z = 2.800
-2025-03-17 18:07:56,430 - 2689: Internal perimeter block started at layer 14
-2025-03-17 18:07:56,430 - Perimeter block #1 detected at layer 14
-2025-03-17 18:07:56,430 - Inserting G1 Z2.900 for shifted perimeter block #1
-2025-03-17 18:07:56,430 - Perimeter block #2 detected at layer 14
-2025-03-17 18:07:56,430 - Inserting G1 Z2.800 for non-shifted perimeter block #2
-2025-03-17 18:07:56,430 - Perimeter block #3 detected at layer 14
-2025-03-17 18:07:56,430 - Inserting G1 Z2.900 for shifted perimeter block #3
-2025-03-17 18:07:56,430 - 2718 - Current Z = 2.800
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 14
-2025-03-17 18:07:56,431 - Inserting G1 Z2.800 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,088 - 2677 - Current Layer is 14
+2025-03-17 19:11:02,088 - 2687 - Current Z = 2.800
+2025-03-17 19:11:02,088 - 2689: Internal perimeter block started at layer 14
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 14
+2025-03-17 19:11:02,088 - Inserting G1 Z2.900 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 14
+2025-03-17 19:11:02,088 - Inserting G1 Z2.800 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 14
+2025-03-17 19:11:02,088 - Inserting G1 Z2.900 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2718 - Current Z = 2.800
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 14
+2025-03-17 19:11:02,088 - Inserting G1 Z2.800 for non-shifted perimeter block #4
+2025-03-17 19:11:02,088 - Layer Done 
 
-2025-03-17 18:07:56,431 - 2764 - Current Layer is 15
-2025-03-17 18:07:56,431 - 2773 - Current Z = 3.000
-2025-03-17 18:07:56,431 - 2775: Internal perimeter block started at layer 15
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 15
-2025-03-17 18:07:56,431 - Inserting G1 Z3.100 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 15
-2025-03-17 18:07:56,431 - Inserting G1 Z3.000 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 15
-2025-03-17 18:07:56,431 - Inserting G1 Z3.100 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 2804 - Current Z = 3.000
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 15
-2025-03-17 18:07:56,431 - Inserting G1 Z3.000 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,088 - 2764 - Current Layer is 15
+2025-03-17 19:11:02,088 - 2773 - Current Z = 3.000
+2025-03-17 19:11:02,088 - 2775: Internal perimeter block started at layer 15
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 15
+2025-03-17 19:11:02,088 - Inserting G1 Z3.100 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 15
+2025-03-17 19:11:02,088 - Inserting G1 Z3.000 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 15
+2025-03-17 19:11:02,088 - Inserting G1 Z3.100 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2804 - Current Z = 3.000
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 15
+2025-03-17 19:11:02,088 - Inserting G1 Z3.000 for non-shifted perimeter block #4
+2025-03-17 19:11:02,088 - Layer Done 
 
-2025-03-17 18:07:56,431 - 2851 - Current Layer is 16
-2025-03-17 18:07:56,431 - 2860 - Current Z = 3.200
-2025-03-17 18:07:56,431 - 2862: Internal perimeter block started at layer 16
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 16
-2025-03-17 18:07:56,431 - Inserting G1 Z3.300 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 16
-2025-03-17 18:07:56,431 - Inserting G1 Z3.200 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 16
-2025-03-17 18:07:56,431 - Inserting G1 Z3.300 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 2891 - Current Z = 3.200
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 16
-2025-03-17 18:07:56,431 - Inserting G1 Z3.200 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,088 - 2851 - Current Layer is 16
+2025-03-17 19:11:02,088 - 2860 - Current Z = 3.200
+2025-03-17 19:11:02,088 - 2862: Internal perimeter block started at layer 16
+2025-03-17 19:11:02,088 - Perimeter block #1 detected at layer 16
+2025-03-17 19:11:02,088 - Inserting G1 Z3.300 for shifted perimeter block #1
+2025-03-17 19:11:02,088 - Perimeter block #2 detected at layer 16
+2025-03-17 19:11:02,088 - Inserting G1 Z3.200 for non-shifted perimeter block #2
+2025-03-17 19:11:02,088 - Perimeter block #3 detected at layer 16
+2025-03-17 19:11:02,088 - Inserting G1 Z3.300 for shifted perimeter block #3
+2025-03-17 19:11:02,088 - 2891 - Current Z = 3.200
+2025-03-17 19:11:02,088 - Perimeter block #4 detected at layer 16
+2025-03-17 19:11:02,088 - Inserting G1 Z3.200 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,431 - 2937 - Current Layer is 17
-2025-03-17 18:07:56,431 - 2946 - Current Z = 3.400
-2025-03-17 18:07:56,431 - 2948: Internal perimeter block started at layer 17
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 17
-2025-03-17 18:07:56,431 - Inserting G1 Z3.500 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 17
-2025-03-17 18:07:56,431 - Inserting G1 Z3.400 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 17
-2025-03-17 18:07:56,431 - Inserting G1 Z3.500 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 2977 - Current Z = 3.400
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 17
-2025-03-17 18:07:56,431 - Inserting G1 Z3.400 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,089 - 2937 - Current Layer is 17
+2025-03-17 19:11:02,089 - 2946 - Current Z = 3.400
+2025-03-17 19:11:02,089 - 2948: Internal perimeter block started at layer 17
+2025-03-17 19:11:02,089 - Perimeter block #1 detected at layer 17
+2025-03-17 19:11:02,089 - Inserting G1 Z3.500 for shifted perimeter block #1
+2025-03-17 19:11:02,089 - Perimeter block #2 detected at layer 17
+2025-03-17 19:11:02,089 - Inserting G1 Z3.400 for non-shifted perimeter block #2
+2025-03-17 19:11:02,089 - Perimeter block #3 detected at layer 17
+2025-03-17 19:11:02,089 - Inserting G1 Z3.500 for shifted perimeter block #3
+2025-03-17 19:11:02,089 - 2977 - Current Z = 3.400
+2025-03-17 19:11:02,089 - Perimeter block #4 detected at layer 17
+2025-03-17 19:11:02,089 - Inserting G1 Z3.400 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,431 - 3024 - Current Layer is 18
-2025-03-17 18:07:56,431 - 3033 - Current Z = 3.600
-2025-03-17 18:07:56,431 - 3035: Internal perimeter block started at layer 18
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 18
-2025-03-17 18:07:56,431 - Inserting G1 Z3.700 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 18
-2025-03-17 18:07:56,431 - Inserting G1 Z3.600 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 18
-2025-03-17 18:07:56,431 - Inserting G1 Z3.700 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 3064 - Current Z = 3.600
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 18
-2025-03-17 18:07:56,431 - Inserting G1 Z3.600 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,089 - 3024 - Current Layer is 18
+2025-03-17 19:11:02,089 - 3033 - Current Z = 3.600
+2025-03-17 19:11:02,089 - 3035: Internal perimeter block started at layer 18
+2025-03-17 19:11:02,089 - Perimeter block #1 detected at layer 18
+2025-03-17 19:11:02,089 - Inserting G1 Z3.700 for shifted perimeter block #1
+2025-03-17 19:11:02,089 - Perimeter block #2 detected at layer 18
+2025-03-17 19:11:02,089 - Inserting G1 Z3.600 for non-shifted perimeter block #2
+2025-03-17 19:11:02,089 - Perimeter block #3 detected at layer 18
+2025-03-17 19:11:02,089 - Inserting G1 Z3.700 for shifted perimeter block #3
+2025-03-17 19:11:02,089 - 3064 - Current Z = 3.600
+2025-03-17 19:11:02,089 - Perimeter block #4 detected at layer 18
+2025-03-17 19:11:02,089 - Inserting G1 Z3.600 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,431 - 3110 - Current Layer is 19
-2025-03-17 18:07:56,431 - 3119 - Current Z = 3.800
-2025-03-17 18:07:56,431 - 3121: Internal perimeter block started at layer 19
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 19
-2025-03-17 18:07:56,431 - Inserting G1 Z3.900 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 19
-2025-03-17 18:07:56,431 - Inserting G1 Z3.800 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 19
-2025-03-17 18:07:56,431 - Inserting G1 Z3.900 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 3151 - Current Z = 3.800
-2025-03-17 18:07:56,431 - Perimeter block #4 detected at layer 19
-2025-03-17 18:07:56,431 - Inserting G1 Z3.800 for non-shifted perimeter block #4
-2025-03-17 18:07:56,431 - Layer Done 
+2025-03-17 19:11:02,089 - 3110 - Current Layer is 19
+2025-03-17 19:11:02,089 - 3119 - Current Z = 3.800
+2025-03-17 19:11:02,089 - 3121: Internal perimeter block started at layer 19
+2025-03-17 19:11:02,089 - Perimeter block #1 detected at layer 19
+2025-03-17 19:11:02,089 - Inserting G1 Z3.900 for shifted perimeter block #1
+2025-03-17 19:11:02,089 - Perimeter block #2 detected at layer 19
+2025-03-17 19:11:02,089 - Inserting G1 Z3.800 for non-shifted perimeter block #2
+2025-03-17 19:11:02,089 - Perimeter block #3 detected at layer 19
+2025-03-17 19:11:02,089 - Inserting G1 Z3.900 for shifted perimeter block #3
+2025-03-17 19:11:02,089 - 3151 - Current Z = 3.800
+2025-03-17 19:11:02,089 - Perimeter block #4 detected at layer 19
+2025-03-17 19:11:02,089 - Inserting G1 Z3.800 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,431 - 3197 - Current Layer is 20
-2025-03-17 18:07:56,431 - 3206 - Current Z = 4.000
-2025-03-17 18:07:56,431 - 3208: Internal perimeter block started at layer 20
-2025-03-17 18:07:56,431 - Perimeter block #1 detected at layer 20
-2025-03-17 18:07:56,431 - Inserting G1 Z4.100 for shifted perimeter block #1
-2025-03-17 18:07:56,431 - Perimeter block #2 detected at layer 20
-2025-03-17 18:07:56,431 - Inserting G1 Z4.000 for non-shifted perimeter block #2
-2025-03-17 18:07:56,431 - Perimeter block #3 detected at layer 20
-2025-03-17 18:07:56,431 - Inserting G1 Z4.100 for shifted perimeter block #3
-2025-03-17 18:07:56,431 - 3237 - Current Z = 4.000
-2025-03-17 18:07:56,432 - Perimeter block #4 detected at layer 20
-2025-03-17 18:07:56,432 - Inserting G1 Z4.000 for non-shifted perimeter block #4
-2025-03-17 18:07:56,432 - Perimeter block #5 detected at layer 20
-2025-03-17 18:07:56,432 - Inserting G1 Z4.100 for shifted perimeter block #5
-2025-03-17 18:07:56,432 - Perimeter block #6 detected at layer 20
-2025-03-17 18:07:56,432 - Inserting G1 Z4.000 for non-shifted perimeter block #6
-2025-03-17 18:07:56,432 - Layer Done 
+2025-03-17 19:11:02,089 - 3197 - Current Layer is 20
+2025-03-17 19:11:02,089 - 3206 - Current Z = 4.000
+2025-03-17 19:11:02,089 - 3208: Internal perimeter block started at layer 20
+2025-03-17 19:11:02,089 - Perimeter block #1 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.100 for shifted perimeter block #1
+2025-03-17 19:11:02,089 - Perimeter block #2 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.000 for non-shifted perimeter block #2
+2025-03-17 19:11:02,089 - Perimeter block #3 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.100 for shifted perimeter block #3
+2025-03-17 19:11:02,089 - 3237 - Current Z = 4.000
+2025-03-17 19:11:02,089 - Perimeter block #4 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.000 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Perimeter block #5 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.100 for shifted perimeter block #5
+2025-03-17 19:11:02,089 - Perimeter block #6 detected at layer 20
+2025-03-17 19:11:02,089 - Inserting G1 Z4.000 for non-shifted perimeter block #6
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,432 - 3303 - Current Layer is 21
-2025-03-17 18:07:56,432 - 3312 - Current Z = 4.200
-2025-03-17 18:07:56,432 - 3314: Internal perimeter block started at layer 21
-2025-03-17 18:07:56,432 - Perimeter block #1 detected at layer 21
-2025-03-17 18:07:56,432 - Inserting G1 Z4.300 for shifted perimeter block #1
-2025-03-17 18:07:56,432 - Perimeter block #2 detected at layer 21
-2025-03-17 18:07:56,432 - Inserting G1 Z4.200 for non-shifted perimeter block #2
-2025-03-17 18:07:56,432 - Perimeter block #3 detected at layer 21
-2025-03-17 18:07:56,432 - Inserting G1 Z4.300 for shifted perimeter block #3
-2025-03-17 18:07:56,432 - 3343 - Current Z = 4.200
-2025-03-17 18:07:56,432 - Perimeter block #4 detected at layer 21
-2025-03-17 18:07:56,432 - Inserting G1 Z4.200 for non-shifted perimeter block #4
-2025-03-17 18:07:56,432 - Layer Done 
+2025-03-17 19:11:02,089 - 3303 - Current Layer is 21
+2025-03-17 19:11:02,089 - 3312 - Current Z = 4.200
+2025-03-17 19:11:02,089 - 3314: Internal perimeter block started at layer 21
+2025-03-17 19:11:02,089 - Perimeter block #1 detected at layer 21
+2025-03-17 19:11:02,089 - Inserting G1 Z4.300 for shifted perimeter block #1
+2025-03-17 19:11:02,089 - Perimeter block #2 detected at layer 21
+2025-03-17 19:11:02,089 - Inserting G1 Z4.200 for non-shifted perimeter block #2
+2025-03-17 19:11:02,089 - Perimeter block #3 detected at layer 21
+2025-03-17 19:11:02,089 - Inserting G1 Z4.300 for shifted perimeter block #3
+2025-03-17 19:11:02,089 - 3343 - Current Z = 4.200
+2025-03-17 19:11:02,089 - Perimeter block #4 detected at layer 21
+2025-03-17 19:11:02,089 - Inserting G1 Z4.200 for non-shifted perimeter block #4
+2025-03-17 19:11:02,089 - Layer Done 
 
-2025-03-17 18:07:56,432 - 3484 - Current Layer is 22
-2025-03-17 18:07:56,432 - 3494 - Current Z = 4.400
-2025-03-17 18:07:56,432 - 3496: Internal perimeter block started at layer 22
-2025-03-17 18:07:56,432 - Perimeter block #1 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.500 for shifted perimeter block #1
-2025-03-17 18:07:56,432 - Perimeter block #2 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.400 for non-shifted perimeter block #2
-2025-03-17 18:07:56,432 - Perimeter block #3 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.500 for shifted perimeter block #3
-2025-03-17 18:07:56,432 - 3526 - Current Z = 4.400
-2025-03-17 18:07:56,432 - Perimeter block #4 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.400 for non-shifted perimeter block #4
-2025-03-17 18:07:56,432 - Perimeter block #5 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.500 for shifted perimeter block #5
-2025-03-17 18:07:56,432 - Perimeter block #6 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.400 for non-shifted perimeter block #6
-2025-03-17 18:07:56,432 - Perimeter block #7 detected at layer 22
-2025-03-17 18:07:56,432 - Inserting G1 Z4.500 for shifted perimeter block #7
-2025-03-17 18:07:56,432 - Layer Done 
+2025-03-17 19:11:02,089 - 3484 - Current Layer is 22
+2025-03-17 19:11:02,089 - 3494 - Current Z = 4.400
+2025-03-17 19:11:02,090 - 3496: Internal perimeter block started at layer 22
+2025-03-17 19:11:02,090 - Perimeter block #1 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.500 for shifted perimeter block #1
+2025-03-17 19:11:02,090 - Perimeter block #2 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.400 for non-shifted perimeter block #2
+2025-03-17 19:11:02,090 - Perimeter block #3 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.500 for shifted perimeter block #3
+2025-03-17 19:11:02,090 - 3526 - Current Z = 4.400
+2025-03-17 19:11:02,090 - Perimeter block #4 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.400 for non-shifted perimeter block #4
+2025-03-17 19:11:02,090 - Perimeter block #5 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.500 for shifted perimeter block #5
+2025-03-17 19:11:02,090 - Perimeter block #6 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.400 for non-shifted perimeter block #6
+2025-03-17 19:11:02,090 - Perimeter block #7 detected at layer 22
+2025-03-17 19:11:02,090 - Inserting G1 Z4.500 for shifted perimeter block #7
+2025-03-17 19:11:02,090 - Layer Done 
 
-2025-03-17 18:07:56,432 - 3691 - Current Layer is 23
-2025-03-17 18:07:56,432 - 3700 - Current Z = 4.600
-2025-03-17 18:07:56,432 - 3702: Internal perimeter block started at layer 23
-2025-03-17 18:07:56,432 - Perimeter block #1 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.700 for shifted perimeter block #1
-2025-03-17 18:07:56,432 - Perimeter block #2 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.600 for non-shifted perimeter block #2
-2025-03-17 18:07:56,432 - Perimeter block #3 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.700 for shifted perimeter block #3
-2025-03-17 18:07:56,432 - 3732 - Current Z = 4.600
-2025-03-17 18:07:56,432 - Perimeter block #4 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.600 for non-shifted perimeter block #4
-2025-03-17 18:07:56,432 - Perimeter block #5 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.700 for shifted perimeter block #5
-2025-03-17 18:07:56,432 - Perimeter block #6 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.600 for non-shifted perimeter block #6
-2025-03-17 18:07:56,432 - Perimeter block #7 detected at layer 23
-2025-03-17 18:07:56,432 - Inserting G1 Z4.700 for shifted perimeter block #7
-2025-03-17 18:07:56,432 - Layer Done 
+2025-03-17 19:11:02,090 - 3691 - Current Layer is 23
+2025-03-17 19:11:02,090 - 3700 - Current Z = 4.600
+2025-03-17 19:11:02,090 - 3702: Internal perimeter block started at layer 23
+2025-03-17 19:11:02,090 - Perimeter block #1 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.700 for shifted perimeter block #1
+2025-03-17 19:11:02,090 - Perimeter block #2 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.600 for non-shifted perimeter block #2
+2025-03-17 19:11:02,090 - Perimeter block #3 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.700 for shifted perimeter block #3
+2025-03-17 19:11:02,090 - 3732 - Current Z = 4.600
+2025-03-17 19:11:02,090 - Perimeter block #4 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.600 for non-shifted perimeter block #4
+2025-03-17 19:11:02,090 - Perimeter block #5 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.700 for shifted perimeter block #5
+2025-03-17 19:11:02,090 - Perimeter block #6 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.600 for non-shifted perimeter block #6
+2025-03-17 19:11:02,090 - Perimeter block #7 detected at layer 23
+2025-03-17 19:11:02,090 - Inserting G1 Z4.700 for shifted perimeter block #7
+2025-03-17 19:11:02,090 - Layer Done 
 
-2025-03-17 18:07:56,432 - 3898 - Current Layer is 24
-2025-03-17 18:07:56,432 - 3907 - Current Z = 4.800
-2025-03-17 18:07:56,432 - 3909: Internal perimeter block started at layer 24
-2025-03-17 18:07:56,433 - Perimeter block #1 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.900 for shifted perimeter block #1
-2025-03-17 18:07:56,433 - Perimeter block #2 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.800 for non-shifted perimeter block #2
-2025-03-17 18:07:56,433 - Perimeter block #3 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.900 for shifted perimeter block #3
-2025-03-17 18:07:56,433 - 3938 - Current Z = 4.800
-2025-03-17 18:07:56,433 - Perimeter block #4 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.800 for non-shifted perimeter block #4
-2025-03-17 18:07:56,433 - Perimeter block #5 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.900 for shifted perimeter block #5
-2025-03-17 18:07:56,433 - Perimeter block #6 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.800 for non-shifted perimeter block #6
-2025-03-17 18:07:56,433 - Perimeter block #7 detected at layer 24
-2025-03-17 18:07:56,433 - Inserting G1 Z4.900 for shifted perimeter block #7
-2025-03-17 18:07:56,433 - Layer Done 
+2025-03-17 19:11:02,090 - 3898 - Current Layer is 24
+2025-03-17 19:11:02,090 - 3907 - Current Z = 4.800
+2025-03-17 19:11:02,090 - 3909: Internal perimeter block started at layer 24
+2025-03-17 19:11:02,090 - Perimeter block #1 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.900 for shifted perimeter block #1
+2025-03-17 19:11:02,090 - Perimeter block #2 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.800 for non-shifted perimeter block #2
+2025-03-17 19:11:02,090 - Perimeter block #3 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.900 for shifted perimeter block #3
+2025-03-17 19:11:02,090 - 3938 - Current Z = 4.800
+2025-03-17 19:11:02,090 - Perimeter block #4 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.800 for non-shifted perimeter block #4
+2025-03-17 19:11:02,090 - Perimeter block #5 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.900 for shifted perimeter block #5
+2025-03-17 19:11:02,090 - Perimeter block #6 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.800 for non-shifted perimeter block #6
+2025-03-17 19:11:02,090 - Perimeter block #7 detected at layer 24
+2025-03-17 19:11:02,090 - Inserting G1 Z4.900 for shifted perimeter block #7
+2025-03-17 19:11:02,090 - Layer Done 
 
-2025-03-17 18:07:56,433 - 4104 - Current Layer is 25
-2025-03-17 18:07:56,433 - 4113 - Current Z = 5.000
-2025-03-17 18:07:56,433 - 4132 - Current Z = 5.000
-2025-03-17 18:07:56,433 - Perimeter block #1 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #1
-2025-03-17 18:07:56,433 - Perimeter block #2 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #2
-2025-03-17 18:07:56,433 - Perimeter block #3 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #3
-2025-03-17 18:07:56,433 - Perimeter block #4 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #4
-2025-03-17 18:07:56,433 - Perimeter block #5 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #5
-2025-03-17 18:07:56,433 - Perimeter block #6 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #6
-2025-03-17 18:07:56,433 - Perimeter block #7 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #7
-2025-03-17 18:07:56,433 - Perimeter block #8 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #8
-2025-03-17 18:07:56,433 - Perimeter block #9 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #9
-2025-03-17 18:07:56,433 - Perimeter block #10 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #10
-2025-03-17 18:07:56,433 - Perimeter block #11 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #11
-2025-03-17 18:07:56,433 - Perimeter block #12 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #12
-2025-03-17 18:07:56,433 - Perimeter block #13 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #13
-2025-03-17 18:07:56,433 - Perimeter block #14 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #14
-2025-03-17 18:07:56,433 - Perimeter block #15 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #15
-2025-03-17 18:07:56,433 - Perimeter block #16 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #16
-2025-03-17 18:07:56,433 - Perimeter block #17 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #17
-2025-03-17 18:07:56,433 - Perimeter block #18 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #18
-2025-03-17 18:07:56,433 - Perimeter block #19 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #19
-2025-03-17 18:07:56,433 - Perimeter block #20 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #20
-2025-03-17 18:07:56,433 - Perimeter block #21 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #21
-2025-03-17 18:07:56,433 - Perimeter block #22 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #22
-2025-03-17 18:07:56,433 - Perimeter block #23 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #23
-2025-03-17 18:07:56,433 - Perimeter block #24 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #24
-2025-03-17 18:07:56,433 - Perimeter block #25 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #25
-2025-03-17 18:07:56,433 - Perimeter block #26 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #26
-2025-03-17 18:07:56,433 - Perimeter block #27 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #27
-2025-03-17 18:07:56,433 - Perimeter block #28 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #28
-2025-03-17 18:07:56,433 - Perimeter block #29 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #29
-2025-03-17 18:07:56,433 - Perimeter block #30 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #30
-2025-03-17 18:07:56,433 - Perimeter block #31 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.100 for shifted perimeter block #31
-2025-03-17 18:07:56,433 - Perimeter block #32 detected at layer 25
-2025-03-17 18:07:56,433 - Inserting G1 Z5.000 for non-shifted perimeter block #32
-2025-03-17 18:07:56,434 - Perimeter block #33 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #33
-2025-03-17 18:07:56,434 - Perimeter block #34 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #34
-2025-03-17 18:07:56,434 - Perimeter block #35 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #35
-2025-03-17 18:07:56,434 - Perimeter block #36 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #36
-2025-03-17 18:07:56,434 - Perimeter block #37 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #37
-2025-03-17 18:07:56,434 - Perimeter block #38 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #38
-2025-03-17 18:07:56,434 - Perimeter block #39 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #39
-2025-03-17 18:07:56,434 - Perimeter block #40 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #40
-2025-03-17 18:07:56,434 - Perimeter block #41 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #41
-2025-03-17 18:07:56,434 - Perimeter block #42 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #42
-2025-03-17 18:07:56,434 - Perimeter block #43 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #43
-2025-03-17 18:07:56,434 - Perimeter block #44 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #44
-2025-03-17 18:07:56,434 - Perimeter block #45 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #45
-2025-03-17 18:07:56,434 - Perimeter block #46 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #46
-2025-03-17 18:07:56,434 - Perimeter block #47 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #47
-2025-03-17 18:07:56,434 - Perimeter block #48 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #48
-2025-03-17 18:07:56,434 - Perimeter block #49 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #49
-2025-03-17 18:07:56,434 - Perimeter block #50 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #50
-2025-03-17 18:07:56,434 - Perimeter block #51 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #51
-2025-03-17 18:07:56,434 - Perimeter block #52 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #52
-2025-03-17 18:07:56,434 - Perimeter block #53 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #53
-2025-03-17 18:07:56,434 - Perimeter block #54 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #54
-2025-03-17 18:07:56,434 - Perimeter block #55 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #55
-2025-03-17 18:07:56,434 - Perimeter block #56 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #56
-2025-03-17 18:07:56,434 - Perimeter block #57 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #57
-2025-03-17 18:07:56,434 - Perimeter block #58 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #58
-2025-03-17 18:07:56,434 - Perimeter block #59 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #59
-2025-03-17 18:07:56,434 - Perimeter block #60 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #60
-2025-03-17 18:07:56,434 - Perimeter block #61 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #61
-2025-03-17 18:07:56,434 - Perimeter block #62 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #62
-2025-03-17 18:07:56,434 - Perimeter block #63 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #63
-2025-03-17 18:07:56,434 - Perimeter block #64 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #64
-2025-03-17 18:07:56,434 - Perimeter block #65 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #65
-2025-03-17 18:07:56,434 - Perimeter block #66 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #66
-2025-03-17 18:07:56,434 - Perimeter block #67 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #67
-2025-03-17 18:07:56,434 - Perimeter block #68 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #68
-2025-03-17 18:07:56,434 - Perimeter block #69 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.100 for shifted perimeter block #69
-2025-03-17 18:07:56,434 - Perimeter block #70 detected at layer 25
-2025-03-17 18:07:56,434 - Inserting G1 Z5.000 for non-shifted perimeter block #70
-2025-03-17 18:07:56,434 - 4506 - Current Z = 5.500
-2025-03-17 18:07:56,435 - -----G-code processing completed ---------------------------------
-2025-03-17 18:07:56,435 - Log file saved at /Users/kbw29/Dropbox/Fabrication/FDM/Code/Post-Processing/Bricklayers/log/modification_log.txt
+2025-03-17 19:11:02,090 - 4104 - Current Layer is 25
+2025-03-17 19:11:02,090 - 4113 - Current Z = 5.000
+2025-03-17 19:11:02,090 - 4132 - Current Z = 5.000
+2025-03-17 19:11:02,091 - Perimeter block #1 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #1
+2025-03-17 19:11:02,091 - Perimeter block #2 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #2
+2025-03-17 19:11:02,091 - Perimeter block #3 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #3
+2025-03-17 19:11:02,091 - Perimeter block #4 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #4
+2025-03-17 19:11:02,091 - Perimeter block #5 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #5
+2025-03-17 19:11:02,091 - Perimeter block #6 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #6
+2025-03-17 19:11:02,091 - Perimeter block #7 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #7
+2025-03-17 19:11:02,091 - Perimeter block #8 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #8
+2025-03-17 19:11:02,091 - Perimeter block #9 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #9
+2025-03-17 19:11:02,091 - Perimeter block #10 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #10
+2025-03-17 19:11:02,091 - Perimeter block #11 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #11
+2025-03-17 19:11:02,091 - Perimeter block #12 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #12
+2025-03-17 19:11:02,091 - Perimeter block #13 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #13
+2025-03-17 19:11:02,091 - Perimeter block #14 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #14
+2025-03-17 19:11:02,091 - Perimeter block #15 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #15
+2025-03-17 19:11:02,091 - Perimeter block #16 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #16
+2025-03-17 19:11:02,091 - Perimeter block #17 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #17
+2025-03-17 19:11:02,091 - Perimeter block #18 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #18
+2025-03-17 19:11:02,091 - Perimeter block #19 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #19
+2025-03-17 19:11:02,091 - Perimeter block #20 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #20
+2025-03-17 19:11:02,091 - Perimeter block #21 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #21
+2025-03-17 19:11:02,091 - Perimeter block #22 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #22
+2025-03-17 19:11:02,091 - Perimeter block #23 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #23
+2025-03-17 19:11:02,091 - Perimeter block #24 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #24
+2025-03-17 19:11:02,091 - Perimeter block #25 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #25
+2025-03-17 19:11:02,091 - Perimeter block #26 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #26
+2025-03-17 19:11:02,091 - Perimeter block #27 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #27
+2025-03-17 19:11:02,091 - Perimeter block #28 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #28
+2025-03-17 19:11:02,091 - Perimeter block #29 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #29
+2025-03-17 19:11:02,091 - Perimeter block #30 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #30
+2025-03-17 19:11:02,091 - Perimeter block #31 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #31
+2025-03-17 19:11:02,091 - Perimeter block #32 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #32
+2025-03-17 19:11:02,091 - Perimeter block #33 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #33
+2025-03-17 19:11:02,091 - Perimeter block #34 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #34
+2025-03-17 19:11:02,091 - Perimeter block #35 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #35
+2025-03-17 19:11:02,091 - Perimeter block #36 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #36
+2025-03-17 19:11:02,091 - Perimeter block #37 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #37
+2025-03-17 19:11:02,091 - Perimeter block #38 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #38
+2025-03-17 19:11:02,091 - Perimeter block #39 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #39
+2025-03-17 19:11:02,091 - Perimeter block #40 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #40
+2025-03-17 19:11:02,091 - Perimeter block #41 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #41
+2025-03-17 19:11:02,091 - Perimeter block #42 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.000 for non-shifted perimeter block #42
+2025-03-17 19:11:02,091 - Perimeter block #43 detected at layer 25
+2025-03-17 19:11:02,091 - Inserting G1 Z5.100 for shifted perimeter block #43
+2025-03-17 19:11:02,092 - Perimeter block #44 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #44
+2025-03-17 19:11:02,092 - Perimeter block #45 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #45
+2025-03-17 19:11:02,092 - Perimeter block #46 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #46
+2025-03-17 19:11:02,092 - Perimeter block #47 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #47
+2025-03-17 19:11:02,092 - Perimeter block #48 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #48
+2025-03-17 19:11:02,092 - Perimeter block #49 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #49
+2025-03-17 19:11:02,092 - Perimeter block #50 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #50
+2025-03-17 19:11:02,092 - Perimeter block #51 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #51
+2025-03-17 19:11:02,092 - Perimeter block #52 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #52
+2025-03-17 19:11:02,092 - Perimeter block #53 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #53
+2025-03-17 19:11:02,092 - Perimeter block #54 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #54
+2025-03-17 19:11:02,092 - Perimeter block #55 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #55
+2025-03-17 19:11:02,092 - Perimeter block #56 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #56
+2025-03-17 19:11:02,092 - Perimeter block #57 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #57
+2025-03-17 19:11:02,092 - Perimeter block #58 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #58
+2025-03-17 19:11:02,092 - Perimeter block #59 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #59
+2025-03-17 19:11:02,092 - Perimeter block #60 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #60
+2025-03-17 19:11:02,092 - Perimeter block #61 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #61
+2025-03-17 19:11:02,092 - Perimeter block #62 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #62
+2025-03-17 19:11:02,092 - Perimeter block #63 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #63
+2025-03-17 19:11:02,092 - Perimeter block #64 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #64
+2025-03-17 19:11:02,092 - Perimeter block #65 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #65
+2025-03-17 19:11:02,092 - Perimeter block #66 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #66
+2025-03-17 19:11:02,092 - Perimeter block #67 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #67
+2025-03-17 19:11:02,092 - Perimeter block #68 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #68
+2025-03-17 19:11:02,092 - Perimeter block #69 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.100 for shifted perimeter block #69
+2025-03-17 19:11:02,092 - Perimeter block #70 detected at layer 25
+2025-03-17 19:11:02,092 - Inserting G1 Z5.000 for non-shifted perimeter block #70
+2025-03-17 19:11:02,092 - 4506 - Current Z = 5.500
+2025-03-17 19:11:02,093 - -----G-code processing completed ---------------------------------
+2025-03-17 19:11:02,093 - Log file saved at /Users/kbw29/Dropbox/Fabrication/FDM/Code/Post-Processing/Bricklayers/log/modification_log.txt

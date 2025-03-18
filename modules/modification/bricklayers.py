@@ -1,7 +1,8 @@
 import logging
 import re
+from modules.functions.utility import *
 
-def bricklayers_x1c(gcode_lines, layer_height, extrusion_multiplier):
+def bricklayers_x1c(gcode_lines, zshift_multiplier, extrusion_multiplier):
     line_count = 0
     print_start = False
     current_layer = 0
@@ -10,10 +11,14 @@ def bricklayers_x1c(gcode_lines, layer_height, extrusion_multiplier):
     perimeter_block_count = 0
     inside_perimeter_block = False
 
-    # Identify the total number of layers by looking for `G1 Z` commands
-    total_layers = sum(1 for line in gcode_lines if line.startswith("G1 Z"))
+    #header_block = gcode_lines[0:11]
+    # Deriving print parameters from input gcode 
+    total_layers = get_layer_number(gcode_lines)
+    layer_height = get_layer_height(gcode_lines)
+    z_shift = layer_height * zshift_multiplier
+
     logging.info(f"Total layer num: {total_layers}")
-    z_shift = layer_height * 0.5
+    logging.info(f"Layer height: {layer_height}")
     logging.info(f"Z-shift: {z_shift} mm \n")
 
     # Process the G-code

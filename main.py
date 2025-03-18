@@ -41,17 +41,19 @@ if __name__ == "__main__":
     parser.add_argument("-machine", type=str, help="Vendor + Model") # e.g. BBL-X1C
     parser.add_argument("-mod", type=str, help="What to do") # e.g. bricklayers
 
-    parser.add_argument("-layerHeight", type=float, default=0.2, help="Layer height in mm (default: 0.2mm)")
+    parser.add_argument("-zshiftMultiplier", type=float, default=0.1, help="Z Shift multiplier for bricklayers (default: 0.5x)")
     parser.add_argument("-extrusionMultiplier", type=float, default=1, help="Extrusion multiplier for first layer (default: 1.5x)")
     args = parser.parse_args()
 
+    from modules.functions.classes import ProcessingParameters
+    parameters = ProcessingParameters(args.input_file, args.slicer, args.machine)
+
     logging.info("------------Starting G-code post-processing-------------")
-    logging.info(f"Input file: {args.input_file}")
-    logging.info(f"Slicer: {args.slicer}")
-    logging.info(f"Machine: {args.machine}")
+    logging.info(f"Input file: {parameters.inputPath}")
+    logging.info(f"Slicer: {parameters.slicer}")
+    logging.info(f"Machine: {parameters.machine}")
     logging.info(f"Mod: {args.mod}")
 
-    logging.info(f"Layer height: {args.layerHeight} mm")
     logging.info(f"Extrusion Multiplier: {args.extrusionMultiplier}x \n")
 
     if args.machine == "BBL-X1C": 
@@ -60,7 +62,7 @@ if __name__ == "__main__":
         process_gcode_x1c(
             input_file=args.input_file,
             mod=args.mod, 
-            layer_height=args.layerHeight,
+            zshift_multiplier=args.zshiftMultiplier,
             extrusion_multiplier=args.extrusionMultiplier,
             gcode_file_path=gcode_file_path
         )
@@ -69,7 +71,6 @@ if __name__ == "__main__":
 
         process_gcode_general(
             input_file=args.input_file,
-            layer_height=args.layerHeight,
             extrusion_multiplier=args.extrusionMultiplier,
         )
 
