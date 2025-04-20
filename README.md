@@ -54,22 +54,35 @@ Here is a video about this version.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/DosU-M0g-QU/0.jpg)](https://www.youtube.com/watch?v=DosU-M0g-QU)
 
 # Non-Planar Interlocking walls
+
 Please make sure to disable Arcfitting and .bgcode for this to work. 
 
 Parameters: 
+
 -include-infill   -> process the infill
+
 -include-perimeters -> process the perimeters
+
 -include-external-perimeters -> process the external perimeters
+
 -wall-amplitude + number -> amplitude of sinewave used on walls
+
 -wall-frequency + number -> frequency of sinewave used on walls
+
 -infill-amplitude + number -> amplitude of sinewave used on infill
+
 -infill-frequency + number -> frequency of sinewave used on infill
+
 -infill-direction + one of y, x ,xy , negx, negy, negxy ->direction of sinewave for infill
+
 -wall-direction + one of y, x ,xy , negx, negy, negxy ->direction of sinewave for walls
+
 -max-step-size + number -> maximal amplitude increase per layer
+
 -alternate-loops -> activate the alternating sinewaves of walls for interlocking effect
 
 Sample usage:
+
 ```"C:\Path\To\Python\python.exe" "C:\Path\To\Script\InterlockingWalls.py" -include-infill -infill-amplitude 0.3 -include-external-perimeter -infill-frequency 2 -include-perimeters -infill-direction y -wall-direction xy -max-step-size 0.1 -wall-amplitude 0.4 -wall-frequency 2;```
 
 More info in this video:
