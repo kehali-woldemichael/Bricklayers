@@ -22,13 +22,13 @@ import argparse
 script_dir = os.path.dirname(os.path.abspath(__file__))
 # Configure logging to save in the script's directory
 log_file_path = os.path.join(script_dir, "log/z_shift_log.txt")
+gcode_file_path = os.path.join(script_dir, "log/modified.gcode")
 logging.basicConfig(
     filename=log_file_path,
     filemode="w",
     level=logging.INFO,
     format="%(asctime)s - %(message)s"
 )
-
 
 # Main execution
 if __name__ == "__main__":
@@ -43,6 +43,7 @@ if __name__ == "__main__":
     ProcessGcode(
         input_file=args.input_file,
         log_file=log_file_path, 
+        output_file=gcode_file_path, 
         layer_height=args.layerHeight,
         extrusion_multiplier=args.extrusionMultiplier,
     )

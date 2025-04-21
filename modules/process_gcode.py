@@ -1,7 +1,7 @@
 import logging
 import re
 
-def ProcessGcode(input_file, log_file, layer_height, extrusion_multiplier):
+def ProcessGcode(input_file, log_file, output_file, layer_height, extrusion_multiplier):
     current_layer = 0
     current_z = 0.0
     perimeter_type = None
@@ -93,8 +93,10 @@ def ProcessGcode(input_file, log_file, layer_height, extrusion_multiplier):
         modified_lines.append(line)
 
     # Overwrite the input file with the modified G-code
-    with open(input_file, 'w') as outfile:
-        outfile.writelines(modified_lines)
+    with open(input_file, 'w') as log_out:
+        log_out.writelines(modified_lines)
+    with open(output_file, 'w') as gcode_out:
+        gcode_out.writelines(modified_lines)
 
     logging.info("G-code processing completed")
     logging.info(f"Log file saved at {log_file}")
