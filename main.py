@@ -49,12 +49,20 @@ if __name__ == "__main__":
     logging.info(f"Post-processing type: {args.modification}")
 
     if args.manufacturer == "BBL": 
-        from modules.process_bbl_gcode import ProcessGcodeBBL
+        from modules.parsing.process_bbl_gcode import ProcessGcodeBBL
+        ProcessGcodeBBL(
+            input_file=args.input_file,
+            output_file=gcode_file_path, 
+            mod=args.modification, 
+            layer_height=args.layerHeight,
+            extrusion_multiplier=args.extrusionMultiplier,
+        )
     else: 
-        from modules.process_gcode import ProcessGcode
+        from modules.parsing.process_gcode import ProcessGcode
         ProcessGcode(
             input_file=args.input_file,
             output_file=gcode_file_path, 
+            mod=args.modification, 
             layer_height=args.layerHeight,
             extrusion_multiplier=args.extrusionMultiplier,
         )

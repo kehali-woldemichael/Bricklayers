@@ -1,7 +1,7 @@
 import logging
 import re
 
-def ProcessGcode(input_file, output_file, layer_height, extrusion_multiplier):
+def ProcessGcode(input_file, output_file, mod, layer_height, extrusion_multiplier):
     current_layer = 0
     current_z = 0.0
     perimeter_type = None
