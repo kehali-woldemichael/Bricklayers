@@ -34,16 +34,30 @@ logging.basicConfig(
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Post-process G-code for Z-shifting and extrusion adjustments.")
     parser.add_argument("input_file", help="Path to the input G-code file")
+
+     # Factors that affect interpretation of input gcode 
+    parser.add_argument("-manufacturer", type=str, default="general", help="General/BBL") # e.g. BBL-X1C
+    parser.add_argument("-modification", type=str, default="bricklayers", help="What to do") # e.g. bricklayers
+
     parser.add_argument("-layerHeight", type=float, default=0.2, help="Layer height in mm (default: 0.2mm)")
     parser.add_argument("-extrusionMultiplier", type=float, default=1, help="Extrusion multiplier for first layer (default: 1.5x)")
     args = parser.parse_args()
 
-    from modules.process_gcode import ProcessGcode
+    logging.info("------------Starting G-code post-processing-------------")
+    logging.info(f"Input file: {args.input_file}")
+    logging.info(f"Printer Manufacturer: {args.manufacturer}")
+    logging.info(f"Post-processing type: {args.modification}")
 
-    ProcessGcode(
-        input_file=args.input_file,
-        log_file=log_file_path, 
-        output_file=gcode_file_path, 
-        layer_height=args.layerHeight,
-        extrusion_multiplier=args.extrusionMultiplier,
-    )
+    if args.manufacturer == "BBL": 
+        from modules.process_bbl_gcode import ProcessGcodeBBL
+    else: 
+        from modules.process_gcode import ProcessGcode
+        ProcessGcode(
+            input_file=args.input_file,
+            output_file=gcode_file_path, 
+            layer_height=args.layerHeight,
+            extrusion_multiplier=args.extrusionMultiplier,
+        )
+
+    logging.info("-----G-code processing completed ---------------------------------")
+    logging.info(f"Log file saved at {log_file_path}")
